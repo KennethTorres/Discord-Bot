@@ -5,7 +5,7 @@ const client = new Client({
 });
 
 client.once('ready', () => {
-    console.log("BananaBot iniciado");
+    console.log("Bot iniciado");
 });
 
 const config = require('./config/config2.json');
