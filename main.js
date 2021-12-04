@@ -8,4 +8,5 @@ client.once('ready', () => {
     console.log("BananaBot iniciado");
 });
 
-client.login('OTE0MjEyMDk3ODk2ODk4NjEw.YaJwXQ.meuReOyDpVD-SSNXw36PNoDKrq8');
+const config = require('./config');
+client.login('config.token');
