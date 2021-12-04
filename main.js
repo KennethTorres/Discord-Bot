@@ -8,5 +8,5 @@ client.once('ready', () => {
     console.log("BananaBot iniciado");
 });
 
-const config = require('./config');
+const config = require('./config2');
 client.login('config.token');
